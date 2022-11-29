@@ -31,7 +31,7 @@ public void resume(){
 }   
 
 void update(){
-   if(Input.GetKeyDown(KeyCode.Space)){
+   if(Input.GetAxis("Cancel")>0){
       if(belirleyici!=true){
       pause();
       }
